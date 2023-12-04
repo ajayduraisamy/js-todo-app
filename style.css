@@ -1,11 +1,87 @@
 body {
-    font-family: Arial;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    font-family: "Segoe UI", Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-container {
+    background: white;
+    width: 350px;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-    color: darkblue;
+    text-align: center;
+    color: #1e3c72;
+}
+
+.input-box {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
 }
 
 button {
+    border: none;
+    padding: 10px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #1e3c72;
+    color: white;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #2a5298;
+}
+
+ul {
+    list-style: none;
+    margin-top: 15px;
+    padding: 0;
+}
+
+li {
+    background: #f2f4ff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li span {
+    flex: 1;
+}
+
+li button {
     margin-left: 5px;
+}
+
+.edit {
+    background: #ffa502;
+}
+
+.edit:hover {
+    background: #ff7f00;
+}
+
+.delete {
+    background: #ff4757;
+}
+
+.delete:hover {
+    background: #e84118;
 }
