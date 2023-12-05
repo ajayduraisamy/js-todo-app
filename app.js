@@ -78,3 +78,9 @@ function clearAll(){
     saveToLocal();
     render();
 }
+
+function updateCounter(){
+    document.getElementById("counter")
+        .innerText = `${tasks.length} tasks remaining`;
+}
+updateCounter();
