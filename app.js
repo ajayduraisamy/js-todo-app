@@ -72,3 +72,9 @@ function toggleComplete(index){
     saveToLocal();
     render();
 }
+
+function clearAll(){
+    tasks = [];
+    saveToLocal();
+    render();
+}
