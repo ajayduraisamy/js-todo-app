@@ -66,3 +66,9 @@ function editTask(index) {
 
 // Load tasks on startup
 render();
+
+function toggleComplete(index){
+    tasks[index].done = !tasks[index].done;
+    saveToLocal();
+    render();
+}
