@@ -25,7 +25,9 @@ function render() {
         const li = document.createElement("li");
 
         const span = document.createElement("span");
-        span.innerText = task;
+        span.innerText = task.text;
+if (task.done) span.classList.add("done");
+
 
         // Edit button
         const editBtn = document.createElement("button");
