@@ -89,3 +89,9 @@ li button {
 .delete:hover {
     background: #e84118;
 }
+
+@media(max-width:400px) {
+    .todo-container {
+        width: 95%;
+    }
+}
