@@ -12,6 +12,10 @@ A premium Todo application built using **HTML, CSS & Vanilla JavaScript** with l
 ✅ Data stored in **LocalStorage** (tasks remain after refresh)  
 ✅ Clean **premium UI** with gradients  
 ✅ Lightweight & 100% Vanilla JS
+✅ Mark task complete  
+✅ Clear all tasks  
+✅ Live task counter  
+✅ Mobile responsive layout
 
 ---
 
