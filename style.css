@@ -82,6 +82,10 @@ li button {
     background: #ff4757;
 }
 
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
 .delete:hover {
     background: #e84118;
 }
